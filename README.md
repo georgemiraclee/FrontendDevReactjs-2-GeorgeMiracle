@@ -36,4 +36,4 @@ Berikut adalah langkah-langkah untuk memulai proyek ini:
   ```
 
  ## Deployed on Netlify
-[![Deployed with Netlify](https://www.netlify.com/img/deploy/button.svg)]()
+[![Deployed with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://frontendsekawangeorge.netlify.app/)
