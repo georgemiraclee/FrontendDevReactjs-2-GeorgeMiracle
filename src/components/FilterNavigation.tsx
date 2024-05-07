@@ -1,5 +1,4 @@
 import { useContext, useState, useEffect, useCallback } from "react";
-
 import { FilteredDataContext } from "../context/RestaurantContext";
 import Button from "./ui/Button";
 import { Restaurant } from "../types/types";
@@ -108,9 +107,9 @@ const FilterNavigation = () => {
   };
 
   return (
-    <div className="flex justify-between w-full border-y py-4">
-      <div className="overflow-x-auto flex justify-between gap-8 w-full">
-        <div className="flex gap-4 items-center flex-shrink-0">
+    <div className="flex flex-col md:flex-row justify-between w-full border-y py-4">
+      <div className="md:overflow-x-auto md:flex md:justify-between md:gap-8 md:w-full">
+        <div className="flex flex-col md:flex-row gap-4 items-center md:flex-shrink-0">
           <p>Filter By:</p>
           <select
             value={filter.status}
@@ -147,9 +146,9 @@ const FilterNavigation = () => {
           </select>
         </div>
 
-        <Button variant="outline" className="px-8 md:px-10 flex-shrink-0 border-gray-300" onClick={clearAllFilters}>
-        CLEAR ALL
-      </Button>
+        <Button variant="outline" className="mt-4 md:mt-0 md:px-8 md:flex-shrink-0 md:border-gray-300" onClick={clearAllFilters}>
+          CLEAR ALL
+        </Button>
       </div>
     </div>
   );

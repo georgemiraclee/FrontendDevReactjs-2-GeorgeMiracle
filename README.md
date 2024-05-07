@@ -35,5 +35,5 @@ Berikut adalah langkah-langkah untuk memulai proyek ini:
    yarn start
   ```
 
- ## Deployed on Vercel
-[![Deployed with Netlify](https://netlify.com/button)]()
+ ## Deployed on Netlify
+[![Deployed with Netlify](https://www.netlify.com/img/deploy/button.svg)]()
